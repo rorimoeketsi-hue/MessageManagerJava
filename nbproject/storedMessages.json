@@ -1,0 +1,8 @@
+[
+    {"messageID": "ID002", "sender", "0838884567", "recipient" :, "+27838884567",
+        "message": "Where are you? you are late! I have asked you to be on time.",
+        "messageHash": "00:2:WHETIME", "flag": "Stored"}
+    {"messageID": "ID005", "sender": "0838884567", "recipient": "+27838884567",
+        "message": "Ok, I am leaving without you.", "messageHash": "00:5:OKYOU",
+        "flag": "Stored"}
+]

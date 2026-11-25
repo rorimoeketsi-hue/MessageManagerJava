@@ -1,0 +1,13 @@
+name: Test Java
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: action/checkout@v4
+      - uses: action/setup-java@v4
+      with:
+        distribution: 'temurin'
+        java-version: '17'
+        - name: Run ALL Tests
+        run: mvn test
